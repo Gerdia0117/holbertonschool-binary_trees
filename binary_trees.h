@@ -11,6 +11,6 @@ typedef struct binary_tree_s {
 } binary_tree_t;
 
 /* Function prototype */
-int binary_tree_is_leaf(const binary_tree_t *node);
+int binary_tree_is_root(const binary_tree_t *node);
 
 #endif /* BINARY_TREES_H */
