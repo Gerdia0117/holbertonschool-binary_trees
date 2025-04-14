@@ -10,7 +10,7 @@ typedef struct binary_tree_s {
     struct binary_tree_s *right;
 } binary_tree_t;
 
-/* Function prototype */
-void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
+/* Function prototypes */
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 
 #endif /* BINARY_TREES_H */
